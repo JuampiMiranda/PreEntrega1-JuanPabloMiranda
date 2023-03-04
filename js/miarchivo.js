@@ -42,7 +42,7 @@ if(selecTratamientos === 1){
 } else if(selecTratamientos === 3){
     alert(neurodinamia.descripcion);
 } else if(selecTratamientos === 4){
-    alert(drenajeLinfatico.descripcion)
+    alert(drenajeLinfatico.descripcion);
 }
 
 alert('Si desea volver a seleccionar un tratamiento toque la telca "F5". De lo contrario continuemos.')
@@ -56,3 +56,6 @@ if(selecTratamientos === 1){
 } else if(selecTratamientos === 4){
     prompt('¿Desea sacar un turno con un especialista en Drenaje Linfático? Ingrese "SI", de lo contrario precione "F5" para volver a seleccionar un tratamiento');
 }
+
+alert('Disculpe, no pudimos registrar su turno, a la brevedad seguiremos desarrollando este apartado, Muchas gracias por elegir GIMA.');
+alert('Desarrollado por Juan Pablo Miranda');
